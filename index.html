@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dudekula Asif Umar Baba — AI Engineer &amp; Full-Stack Developer</title>
+  <meta
+    name="description"
+    content="Dudekula Asif Umar Baba — AI Engineer & Full-Stack Developer. Multilingual Voice AI, RAG Systems, Flask/React Web Apps, and IEEE ICIC3S 2026 Paper Presenter."
+  />
+  <meta name="author" content="Dudekula Asif Umar Baba" />
+
+  <meta property="og:title" content="Dudekula Asif Umar Baba — AI Engineer & Full-Stack Developer" />
+  <meta property="og:description" content="Building multilingual Voice AI, RAG pipelines, and full-stack web apps." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230D9488'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='%23FFFFFF' font-family='system-ui,sans-serif' font-weight='700' font-size='26'%3EDA%3C/text%3E%3C/svg%3E"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>
+    (function () {
+      const saved = localStorage.getItem("portfolio-theme");
+      const preferred = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", saved || preferred);
+    })();
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dudekula Asif Umar Baba",
+      "jobTitle": "AI Engineer & Full-Stack Developer",
+      "email": "mailto:d.asifdudekula@gmail.com",
+      "telephone": "+91 9032737904",
+      "sameAs": [
+        "https://www.linkedin.com/in/asif-d-6b5342287",
+        "https://github.com/Asif90327"
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "SRM Institute of Science and Technology"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a href="#top" class="brand" aria-label="Dudekula Asif Umar Baba Home">
+        <span class="brand-mark" aria-hidden="true">DA</span>
+        <span class="brand-name">Asif Umar Baba</span>
+      </a>
+
+      <nav class="primary-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#research">Research</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          type="button"
+          class="icon-btn theme-toggle"
+          id="theme-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle theme"
+        >
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Contact</a>
+
+        <button
+          type="button"
+          class="icon-btn menu-toggle"
+          id="menu-toggle"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open navigation menu"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="4" y1="7" x2="20" y2="7"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="17" x2="20" y2="17"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <div class="container">
+        <ul class="mobile-nav-list">
+          <li><a class="mobile-nav-link" href="#experience">Experience</a></li>
+          <li><a class="mobile-nav-link" href="#projects">Projects</a></li>
+          <li><a class="mobile-nav-link" href="#research">Research</a></li>
+          <li><a class="mobile-nav-link" href="#skills">Skills</a></li>
+          <li><a class="mobile-nav-link" href="#education">Education</a></li>
+          <li><a class="mobile-nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="hero-ambient" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Open to AI &amp; Software Engineering Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Dudekula Asif<br />
+            <span class="title-accent">Umar Baba</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            <strong>AI Engineer &amp; Full-Stack Developer.</strong> Building Voice AI, RAG pipelines, and clean web apps.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/Asif90327" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-social="github">
+              GitHub &nearr;
+            </a>
+            <button type="button" class="btn btn-ghost" data-copy="d.asifdudekula@gmail.com">
+              Copy Email
+            </button>
+          </div>
+
+          <div class="hero-links" aria-label="Direct Links">
+            <a href="mailto:d.asifdudekula@gmail.com" class="inline-link">d.asifdudekula@gmail.com</a>
+            <span class="link-sep" aria-hidden="true">&middot;</span>
+            <a href="tel:+919032737904" class="inline-link">+91 9032737904</a>
+            <span class="link-sep" aria-hidden="true">&middot;</span>
+            <a href="https://www.linkedin.com/in/asif-d-6b5342287" target="_blank" rel="noopener noreferrer" class="inline-link" data-social="linkedin">
+              LinkedIn &nearr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Compact Quick-Scan Snapshot -->
+        <aside class="hero-card" aria-label="Quick Snapshot">
+          <div class="hero-card-header">
+            <span class="mono-label">AT A GLANCE</span>
+            <span class="badge badge-teal">SRMIST CSE &rsquo;27</span>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-item">
+              <span class="metric-value">8.8</span>
+              <span class="metric-label">B.Tech CGPA</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">IITM</span>
+              <span class="metric-label">AI Intern (Ewebstore)</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">IEEE</span>
+              <span class="metric-label">ICIC3S &rsquo;26 Presenter</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">SFDC</span>
+              <span class="metric-label">Agentforce Certified</span>
+            </div>
+          </div>
+
+          <div class="focus-tags">
+            <span class="tag">Voice AI</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">Python</span>
+            <span class="tag">React.js</span>
+            <span class="tag">Flask</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">01 / Experience</span>
+          <h2 class="section-title">Work Experience</h2>
+        </div>
+
+        <article class="experience-card reveal">
+          <div class="exp-top">
+            <div>
+              <div class="exp-role-row">
+                <h3 class="exp-role">AI Engineer Intern</h3>
+                <span class="badge badge-accent">Mar 2026 &ndash; May 2026</span>
+              </div>
+              <p class="exp-company">Ewebstore AI Private Limited &middot; <span class="exp-location-inline">Remote / IIT Madras Research Park, Chennai</span></p>
+            </div>
+            <div class="tag-group">
+              <span class="tag">Voice AI</span>
+              <span class="tag">Code-Switching ASR</span>
+              <span class="tag">Conformer</span>
+              <span class="tag">mBERT / XLM-R</span>
+            </div>
+          </div>
+
+          <ul class="bullet-list">
+            <li>Architected a <strong>multilingual Voice AI Assistant</strong> for cross-language speech recognition and NLU.</li>
+            <li>Built <strong>code-switching ASR</strong> workflows to handle mixed-language speech inside a single sentence.</li>
+            <li>Designed an end-to-end speech pipeline: <strong>Mel-Spectrogram &rarr; Conformer/Transformer &rarr; Multilingual LM &rarr; Beam Search</strong>.</li>
+            <li>Evaluated <strong>CTC, Attention, mBERT, and XLM-R</strong> to boost cross-language accuracy.</li>
+          </ul>
+
+          <!-- Interactive Pipeline Explorer (Concise) -->
+          <div class="pipeline-box" aria-label="Speech Processing Pipeline">
+            <div class="pipeline-header">
+              <span class="mono-label">SPEECH PIPELINE</span>
+              <span class="pipeline-hint">Click any stage</span>
+            </div>
+
+            <div class="pipeline-steps" role="tablist" aria-label="Speech pipeline stages">
+              <button type="button" class="pipeline-step is-active" role="tab" aria-selected="true" data-stage="mel">
+                <span class="step-num">01</span>
+                <span class="step-name">Mel-Spectrogram</span>
+              </button>
+              <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+              <button type="button" class="pipeline-step" role="tab" aria-selected="false" data-stage="acoustic">
+                <span class="step-num">02</span>
+                <span class="step-name">Conformer</span>
+              </button>
+              <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+              <button type="button" class="pipeline-step" role="tab" aria-selected="false" data-stage="ctc">
+                <span class="step-num">03</span>
+                <span class="step-name">CTC + Attention</span>
+              </button>
+              <span class="pipeline-arrow" aria-hidden="true">&rarr;</span>
+              <button type="button" class="pipeline-step" role="tab" aria-selected="false" data-stage="lm">
+                <span class="step-num">04</span>
+                <span class="step-name">mBERT / Beam Search</span>
+              </button>
+            </div>
+
+            <div class="pipeline-detail" id="pipeline-detail" role="tabpanel" aria-live="polite">
+              <strong>Audio Features:</strong> Turns raw mixed-language audio into time-frequency spectrograms.
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">02 / Projects</span>
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: RAG -->
+          <article class="project-card reveal">
+            <div class="project-visual visual-rag" aria-hidden="true">
+              <div class="arch-flow">
+                <span class="arch-node">PDF</span>
+                <span class="arch-sep">&rarr;</span>
+                <span class="arch-node">Chunks</span>
+                <span class="arch-sep">&rarr;</span>
+                <span class="arch-node arch-node-highlight">FAISS</span>
+                <span class="arch-sep">&rarr;</span>
+                <span class="arch-node">LangChain LLM</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="mono-label">GEN AI &middot; RAG</span>
+                <span class="badge badge-teal">Semantic Search</span>
+              </div>
+              <h3 class="project-title">RAG Document Q&amp;A System</h3>
+              <p class="project-summary">
+                Upload PDFs, search by meaning with FAISS vector embeddings, and get grounded LLM answers &amp; summaries via LangChain.
+              </p>
+
+              <div class="project-footer">
+                <div class="tag-group">
+                  <span class="tag">Python</span>
+                  <span class="tag">LangChain</span>
+                  <span class="tag">FAISS</span>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm" data-project-modal="rag">
+                  Quick Specs
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Donation Management System -->
+          <article class="project-card reveal">
+            <div class="project-visual visual-dms" aria-hidden="true">
+              <div class="arch-flow">
+                <span class="arch-node">RBAC</span>
+                <span class="arch-sep">&rarr;</span>
+                <span class="arch-node">Flask API</span>
+                <span class="arch-sep">&rarr;</span>
+                <span class="arch-node arch-node-highlight">MySQL (6+ Tables)</span>
+                <span class="arch-sep">&rarr;</span>
+                <span class="arch-node">Dashboard</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="mono-label">FULL-STACK</span>
+                <span class="badge badge-subtle">6+ SQL Tables</span>
+              </div>
+              <h3 class="project-title">Donation Management System</h3>
+              <p class="project-summary">
+                Full-stack donor &amp; campaign tracker with role-based access control, secure Flask REST APIs, and optimized MySQL queries.
+              </p>
+
+              <div class="project-footer">
+                <div class="tag-group">
+                  <span class="tag">Python</span>
+                  <span class="tag">Flask</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">RBAC</span>
+                </div>
+                <button type="button" class="btn btn-secondary btn-sm" data-project-modal="dms">
+                  Quick Specs
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Certifications -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">03 / Credentials</span>
+          <h2 class="section-title">Research &amp; Certifications</h2>
+        </div>
+
+        <article class="publication-card reveal">
+          <div class="pub-badge-col">
+            <span class="pub-venue-badge">IEEE ICIC3S 2026</span>
+            <span class="mono-label">Paper ID 388 &middot; Aug 2026</span>
+          </div>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              &ldquo;Hybrid Framework for Early Genetic Risk Detection in Newborn Screening&rdquo;
+            </h3>
+            <p class="pub-desc">
+              Paper Presenter &mdash; IEEE Delhi Section international conference hosted by <strong>IIIT Una</strong>.
+            </p>
+          </div>
+        </article>
+
+        <div class="certs-grid">
+          <article class="cert-card reveal">
+            <div class="cert-top">
+              <span class="cert-issuer">Salesforce</span>
+              <span class="mono-label">Dec 2025</span>
+            </div>
+            <h3 class="cert-title">Certified Agentforce Specialist</h3>
+            <p class="cert-desc">RAG grounding, prompt engineering, and AI agent setup with Prompt Builder.</p>
+          </article>
+
+          <article class="cert-card reveal">
+            <div class="cert-top">
+              <span class="cert-issuer">AICTE&ndash;EduSkills &middot; Juniper</span>
+              <span class="mono-label">Jan &ndash; Mar 2025</span>
+            </div>
+            <h3 class="cert-title">Networking Cloud Virtual Intern</h3>
+            <p class="cert-desc">10-week virtual internship in cloud networking fundamentals.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header section-header-row">
+          <div>
+            <span class="section-kicker">04 / Stack</span>
+            <h2 class="section-title">Technical Skills</h2>
+          </div>
+
+          <div class="filter-bar" role="group" aria-label="Filter skills by category">
+            <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+            <button type="button" class="filter-btn" data-filter="ai">AI &amp; ML</button>
+            <button type="button" class="filter-btn" data-filter="backend">Backend &amp; DB</button>
+            <button type="button" class="filter-btn" data-filter="frontend">Frontend</button>
+            <button type="button" class="filter-btn" data-filter="core">Core &amp; Tools</button>
+          </div>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <div class="skill-card reveal" data-category="ai">
+            <h3 class="skill-group-title">AI Technologies</h3>
+            <div class="skill-pills">
+              <span class="skill-pill skill-pill-accent">LangChain</span>
+              <span class="skill-pill skill-pill-accent">FAISS</span>
+              <span class="skill-pill skill-pill-accent">RAG</span>
+              <span class="skill-pill">Voice AI / ASR</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="core">
+            <h3 class="skill-group-title">Languages</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Python</span>
+              <span class="skill-pill">C++</span>
+              <span class="skill-pill">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <h3 class="skill-group-title">Backend &amp; Auth</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">Node.js</span>
+              <span class="skill-pill">Express.js</span>
+              <span class="skill-pill">Flask</span>
+              <span class="skill-pill">REST APIs</span>
+              <span class="skill-pill">Socket.IO</span>
+              <span class="skill-pill">JWT</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <h3 class="skill-group-title">Frontend</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">React.js</span>
+              <span class="skill-pill">HTML</span>
+              <span class="skill-pill">CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <h3 class="skill-group-title">Databases</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="core">
+            <h3 class="skill-group-title">CS Core &amp; Tools</h3>
+            <div class="skill-pills">
+              <span class="skill-pill">DSA</span>
+              <span class="skill-pill">OOP</span>
+              <span class="skill-pill">DB Design</span>
+              <span class="skill-pill">Git &amp; GitHub</span>
+              <span class="skill-pill">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">05 / Education</span>
+          <h2 class="section-title">Academic Track</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="timeline-school">SRM Institute of Science and Technology</h3>
+                  <p class="timeline-degree">B.Tech in Computer Science &amp; Engineering</p>
+                </div>
+                <div class="timeline-right">
+                  <span class="mono-label">2023 &ndash; 2027</span>
+                  <span class="score-badge">8.8 CGPA</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="timeline-school">Sri Chaitanya Junior College</h3>
+                  <p class="timeline-degree">Intermediate (Class XII)</p>
+                </div>
+                <div class="timeline-right">
+                  <span class="mono-label">2021 &ndash; 2023</span>
+                  <span class="score-badge">85%</span>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-top">
+                <div>
+                  <h3 class="timeline-school">Sri Chaitanya EM High School</h3>
+                  <p class="timeline-degree">Class X</p>
+                </div>
+                <div class="timeline-right">
+                  <span class="mono-label">2021</span>
+                  <span class="score-badge">100%</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info">
+            <span class="section-kicker">06 / Contact</span>
+            <h2 class="section-title">Let&rsquo;s connect.</h2>
+            <p class="section-desc">
+              Available for AI Engineering &amp; Software Developer roles. Reach out directly below.
+            </p>
+
+            <div class="contact-cards">
+              <div class="contact-card">
+                <div>
+                  <span class="mono-label">EMAIL</span>
+                  <a href="mailto:d.asifdudekula@gmail.com" class="contact-value">d.asifdudekula@gmail.com</a>
+                </div>
+                <button type="button" class="btn btn-ghost btn-sm" data-copy="d.asifdudekula@gmail.com">Copy</button>
+              </div>
+
+              <div class="contact-card">
+                <div>
+                  <span class="mono-label">PHONE</span>
+                  <a href="tel:+919032737904" class="contact-value">+91 9032737904</a>
+                </div>
+                <button type="button" class="btn btn-ghost btn-sm" data-copy="+91 9032737904">Copy</button>
+              </div>
+
+              <div class="contact-card">
+                <div>
+                  <span class="mono-label">LINKS</span>
+                  <div class="contact-social-links">
+                    <a href="https://www.linkedin.com/in/asif-d-6b5342287" target="_blank" rel="noopener noreferrer" data-social="linkedin">LinkedIn &nearr;</a>
+                    <a href="https://github.com/Asif90327" target="_blank" rel="noopener noreferrer" data-social="github">GitHub &nearr;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap reveal">
+            <form class="contact-form" id="contact-form" novalidate>
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-note">Opens a pre-filled Gmail draft (or copy/mail app fallback).</p>
+
+              <div class="form-group">
+                <label for="sender-name">Name</label>
+                <input id="sender-name" name="name" type="text" placeholder="Your name" required autocomplete="name" />
+                <span class="field-error" id="error-name" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email">Email</label>
+                <input id="sender-email" name="email" type="email" placeholder="you@company.com" required autocomplete="email" />
+                <span class="field-error" id="error-email" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject">Subject</label>
+                <input id="sender-subject" name="subject" type="text" placeholder="Role / Collaboration" required />
+                <span class="field-error" id="error-subject" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message">Message</label>
+                <textarea id="sender-message" name="message" rows="3" placeholder="Hi Asif, let's connect..." required></textarea>
+                <span class="field-error" id="error-message" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">Send via Gmail</button>
+            </form>
+
+            <div class="form-result" id="form-result" hidden aria-live="polite">
+              <div class="result-header">
+                <span class="badge badge-teal">Draft Ready</span>
+                <h3 class="form-title">Ready to send</h3>
+              </div>
+
+              <div class="result-preview" id="result-preview"></div>
+
+              <div class="result-actions">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="result-gmail-link">
+                  Open Gmail &nearr;
+                </a>
+                <a href="#" class="btn btn-secondary btn-sm" id="result-mailto-link">
+                  Email App
+                </a>
+                <button type="button" class="btn btn-ghost btn-sm" id="result-copy-btn">
+                  Copy
+                </button>
+              </div>
+
+              <button type="button" class="text-link-btn" id="result-edit-btn">
+                &larr; Edit message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; <span id="current-year">2026</span> Dudekula Asif Umar Baba</p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/asif-d-6b5342287" target="_blank" rel="noopener noreferrer" data-social="linkedin">LinkedIn</a>
+        <a href="https://github.com/Asif90327" target="_blank" rel="noopener noreferrer" data-social="github">GitHub</a>
+        <a href="#top">Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Quick Specs Modal -->
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <div>
+          <span class="mono-label" id="dialog-kicker">PROJECT SPECS</span>
+          <h3 class="dialog-title" id="dialog-title">Project Title</h3>
+        </div>
+        <button type="button" class="icon-btn dialog-close" id="dialog-close" aria-label="Close modal">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="dialog-body" id="dialog-body"></div>
+
+      <div class="dialog-footer">
+        <a href="https://github.com/Asif90327" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="dialog-repo-link">
+          GitHub Profile &nearr;
+        </a>
+        <button type="button" class="btn btn-secondary btn-sm" id="dialog-close-btn">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
